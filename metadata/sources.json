@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-20",
+  "sources": [
+    {
+      "id": "attachment-v1",
+      "type": "user_uploaded_pdf",
+      "title": "Sophia: A Persistent Agent Framework of Artificial Life",
+      "filename": "2512.18202v1.pdf",
+      "version": "arXiv:2512.18202v1",
+      "pdf_page_count": 16,
+      "access": "Actual full attachment text via Library",
+      "public_equivalent_url": "https://arxiv.org/pdf/2512.18202v1",
+      "byte_equivalence_verified": false,
+      "role": "Authoritative source text for the guide"
+    },
+    {
+      "id": "arxiv-v1",
+      "type": "official_record",
+      "title": "Sophia: A Persistent Agent Framework of Artificial Life",
+      "url": "https://arxiv.org/abs/2512.18202v1",
+      "version": "arXiv:2512.18202v1",
+      "role": "Verify title, full author list, submission date, DOI, version and paper license"
+    },
+    {
+      "id": "official-pdf-v1",
+      "type": "official_pdf",
+      "title": "Sophia: A Persistent Agent Framework of Artificial Life",
+      "url": "https://arxiv.org/pdf/2512.18202v1",
+      "version": "arXiv:2512.18202v1",
+      "pdf_page_count": 16,
+      "role": "Visual inspection of Figures1–5 and mathematical notation; not claimed byte-identical to attachment"
+    },
+    {
+      "id": "paper-license",
+      "type": "license",
+      "title": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "role": "License linked by official arXiv record"
+    },
+    {
+      "id": "guide-format",
+      "type": "maintainer_reference",
+      "title": "Harness learning guide",
+      "url": "https://github.com/0xHayd3n/harness-learning-guide",
+      "role": "Established guide organization and agent-grounding conventions; no Sophia research claims"
+    }
+  ]
+}

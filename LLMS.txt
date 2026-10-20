@@ -1,0 +1,17 @@
+# Sophia reading guide
+Unofficial companion to Mingyang Sun, Feng Hong, Weinan Zhang (2025), arXiv:2512.18202v1.
+Start: README.md, AGENTS.md
+Source identity: metadata/paper.json; metadata/sources.json
+Claims: metadata/claims.json
+Pilot observations only: metadata/results.json
+Concepts and glossary: docs/01-concepts-and-context.md
+Architecture, notation, routines: docs/02-architecture-and-learning.md
+Pilot setup, figures, discrepancies: docs/03-pilot-and-evidence.md
+Evidence boundaries and limitations: docs/04-analysis-and-limitations.md
+Complete source/figure/reference map: docs/05-paper-map.md
+Discussion and proposed evaluation: docs/06-discussion-and-evaluation.md
+Credits and licensing: ATTRIBUTION.md, LICENSE
+Research citation: CITATION.cff; references/paper.bib
+Verification: VERIFICATION.md; scripts/validate_repository.py
+Keep conceptual architecture separate from the single-agent pilot.
+No runtime weight updates in the pilot; no consciousness or safety proof.

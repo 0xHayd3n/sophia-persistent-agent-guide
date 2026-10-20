@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "title": "Sophia: A Persistent Agent Framework of Artificial Life",
+  "authors": [
+    {
+      "given": "Mingyang",
+      "family": "Sun",
+      "affiliations": [
+        "Westlake University",
+        "Shanghai Innovation Institute"
+      ]
+    },
+    {
+      "given": "Feng",
+      "family": "Hong",
+      "affiliations": [
+        "Project Cuddlepark Team"
+      ]
+    },
+    {
+      "given": "Weinan",
+      "family": "Zhang",
+      "affiliations": [
+        "Shanghai Innovation Institute",
+        "Shanghai Jiao Tong University"
+      ],
+      "corresponding": true
+    }
+  ],
+  "year": 2025,
+  "date": "2025-12-20",
+  "version": "arXiv:2512.18202v1",
+  "arxiv_id": "2512.18202",
+  "doi": "10.48550/arXiv.2512.18202",
+  "url": "https://arxiv.org/abs/2512.18202v1",
+  "pdf_url": "https://arxiv.org/pdf/2512.18202v1",
+  "pdf_page_count": 16,
+  "paper_type": "Primarily conceptual architecture with exploratory single-agent browser-sandbox pilot",
+  "appendices": [],
+  "figure_count": 5,
+  "table_count": 0,
+  "paper_license": {
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified_from": "arXiv v1 license link",
+    "checked_on": "2026-10-20"
+  },
+  "provenance": {
+    "attachment_filename": "2512.18202v1.pdf",
+    "attachment_size_bytes": 737773,
+    "attachment_access": "Complete actual uploaded attachment text read through ChatGPT Library; 958 extracted lines across 16 PDF pages.",
+    "substitution": false,
+    "visual_check": "Matching official v1 PDF used to inspect Figures 1–5 and equations because Library materialization pointed to a separate cloud filesystem.",
+    "byte_equivalence": "Not established between attachment and official PDF.",
+    "checked_on": "2026-10-20",
+    "execution_host": "HaydenPC",
+    "redistributed_source_material": false
+  },
+  "reporting_issues": [
+    "Formal title says 'of Artificial Life'; running header says 'for Artificial Life'.",
+    "Introduction p.3 states 24h; quantitative and qualitative analysis pp.10–13 use 36h.",
+    "Abstract 40% gain is ambiguous; explicit hard-task endpoints 20% to 60% differ by 40 percentage points.",
+    "Section 5.2.2 p.12 reports 13 intrinsic tasks at12–18h, but Figure5 p.11 bar appears12.",
+    "Generic architecture describes parameter updates; deployed pilot explicitly uses none."
+  ],
+  "code_data_availability": "No authors' code/data link or availability statement identified in the source paper. This is not a claim that none exists elsewhere.",
+  "companion": {
+    "maintainer": "Hayden / 0xHayd3n",
+    "repository": "https://github.com/0xHayd3n/sophia-persistent-agent-guide",
+    "is_official": false,
+    "is_implementation": false,
+    "is_replication": false
+  }
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "For the research, cite the paper in preferred-citation. This repository is an unofficial reading guide."
+title: "Sophia reading guide"
+type: software
+authors:
+  - name: "Hayden / 0xHayd3n"
+repository-code: "https://github.com/0xHayd3n/sophia-persistent-agent-guide"
+url: "https://github.com/0xHayd3n/sophia-persistent-agent-guide"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-10-20"
+preferred-citation:
+  type: article
+  title: "Sophia: A Persistent Agent Framework of Artificial Life"
+  authors:
+    - family-names: Sun
+      given-names: Mingyang
+    - family-names: Hong
+      given-names: Feng
+    - family-names: Zhang
+      given-names: Weinan
+  year: 2025
+  month: 12
+  day: 20
+  journal: arXiv
+  doi: "10.48550/arXiv.2512.18202"
+  url: "https://arxiv.org/abs/2512.18202v1"
+  notes: "Pinned version: arXiv:2512.18202v1"

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "status": "author_reported_exploratory_pilot_only",
+  "independently_reproduced": false,
+  "source_ids": [
+    "attachment-v1"
+  ],
+  "study": {
+    "agent_count": 1,
+    "environment": "Controlled offline browser sandbox; synthetic user feed",
+    "runtime_parameter_updates": false,
+    "duration_hours": null,
+    "duration_note": "Introduction24h; detailed results36h, unresolved",
+    "pilot_model": null,
+    "independent_runs": null,
+    "task_denominators": null,
+    "uncertainty": null,
+    "controlled_baseline": null
+  },
+  "results": [
+    {
+      "id": "R01",
+      "claim_id": "C05",
+      "metric": "first-attempt task success rate",
+      "population": "Hard tasks, >8 steps",
+      "initial": 0.2,
+      "final": 0.6,
+      "unit": "proportion",
+      "checkpoints_hours": [
+        0,
+        36
+      ],
+      "derived_difference_percentage_points": 40,
+      "source_ids": [
+        "attachment-v1"
+      ],
+      "locators": [
+        {
+          "source_id": "attachment-v1",
+          "pages": [
+            10,
+            11
+          ],
+          "section": "§5.2.1, Figure4"
+        }
+      ],
+      "limitations": [
+        "No denominators or error estimates",
+        "No matched control",
+        "Do not call difference40% relative"
+      ]
+    },
+    {
+      "id": "R02",
+      "claim_id": "C06",
+      "metric": "intrinsic task count",
+      "time_window_hours": [
+        12,
+        18
+      ],
+      "value_prose": 13,
+      "value_figure_visual_approx": 12,
+      "authoritative_reconciled_value": null,
+      "unit": "tasks",
+      "source_ids": [
+        "attachment-v1",
+        "official-pdf-v1"
+      ],
+      "locators": [
+        {
+          "source_id": "attachment-v1",
+          "pages": [
+            12
+          ],
+          "section": "§5.2.2"
+        },
+        {
+          "source_id": "official-pdf-v1",
+          "pages": [
+            11
+          ],
+          "section": "Figure5 left"
+        }
+      ],
+      "limitations": [
+        "Prose/plot conflict",
+        "No raw data",
+        "Activity is not usefulness"
+      ]
+    },
+    {
+      "id": "R03",
+      "claim_id": "C07",
+      "metric": "reasoning steps on recurring problem",
+      "reduction_fraction_approx": 0.8,
+      "later_steps_prose_approx": [
+        3,
+        4
+      ],
+      "unit": "reasoning steps",
+      "source_ids": [
+        "attachment-v1"
+      ],
+      "locators": [
+        {
+          "source_id": "attachment-v1",
+          "pages": [
+            11,
+            12
+          ],
+          "section": "Figure5 right; §5.2.3"
+        }
+      ],
+      "limitations": [
+        "Illustrative recurring-problem sequence",
+        "No memory-disabled ablation",
+        "Not total compute or time"
+      ]
+    }
+  ]
+}
